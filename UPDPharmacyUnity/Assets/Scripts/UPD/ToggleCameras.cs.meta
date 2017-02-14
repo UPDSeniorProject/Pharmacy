@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7b3fe072961d4fa2802237c95da8764
+timeCreated: 1454566881
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - camera: {instanceID: 0}
+  - camera2: {instanceID: 0}
+  - guiTexture: {instanceID: 0}
+  - Screen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

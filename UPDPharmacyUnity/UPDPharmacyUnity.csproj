@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E15328D-8AD6-390A-BD96-B9C8CD26A21F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>5.5.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Phidget21.NET">
+      <HintPath>Assets\Plugins\Phidget21.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UPDPharmacyUnity.Plugins.csproj">
+      <Project>{FDFA1D5F-C2B8-E8D8-DD98-28AD3D9C3F4F}</Project>
+      <Name>UPDPharmacyUnity.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DictationRecognizerBehaviour.cs" />
+    <Compile Include="Assets\DictationSC.cs" />
+    <Compile Include="Assets\ReflectiveMarkerManager.cs" />
+    <Compile Include="Assets\Scripts\CommProject\CommsAppActionHandler.cs" />
+    <Compile Include="Assets\Scripts\Core\BasicEventTemplate.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenButton.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenComboBox.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenDebugBox.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenGUIElement.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenImage.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenInputBox.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenLabel.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenSpeechOptions.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenTextBox.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenTranscriptBox.cs" />
+    <Compile Include="Assets\Scripts\Core\GUI\RenWindow.cs" />
+    <Compile Include="Assets\Scripts\Core\PhysicalExaminationTool.cs" />
+    <Compile Include="Assets\Scripts\Core\RenAppActionHandler.cs" />
+    <Compile Include="Assets\Scripts\Core\RenAssetLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\RenBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Core\RenLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\RenManager.cs" />
+    <Compile Include="Assets\Scripts\Core\RenParameterParser.cs" />
+    <Compile Include="Assets\Scripts\Core\RenToolManager.cs" />
+    <Compile Include="Assets\Scripts\Core\ScriptEvents\ReflectiveLearning\ReflectiveLearningMoment.cs" />
+    <Compile Include="Assets\Scripts\Core\ScriptEvents\ReflectiveLearning\ReflectiveLearningPanel.cs" />
+    <Compile Include="Assets\Scripts\Core\ScriptEvents\TimeTrigger.cs" />
+    <Compile Include="Assets\Scripts\Core\SimulationEvent.cs" />
+    <Compile Include="Assets\Scripts\Core\StartTutorial.cs" />
+    <Compile Include="Assets\Scripts\Core\Utilities\JSONObject.cs" />
+    <Compile Include="Assets\Scripts\Core\Utilities\ServerConnection.cs" />
+    <Compile Include="Assets\Scripts\Core\Utilities\ThreadSafeList.cs" />
+    <Compile Include="Assets\Scripts\Core\Utilities\Util.cs" />
+    <Compile Include="Assets\Scripts\Core\Utilities\VectorHelper.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\AbstractVPFCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\OfflineSimulatorCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\OfflineSimulatorIO.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\PTSDCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\PTSDSimulatorIO.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\PTSDVPF1Communicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\UPDVPF2Communicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\VPF1Communicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\VPF1LocalCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\VPF2Communicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VPFCommunication\VPF2LocalCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\FaceFXControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\Gaze and Look\BlinkBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\Gaze and Look\HeadLookBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\LipSync\LipSyncInfo.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\LipSync\Phoneme.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\PTSDVHAnimationManager.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\PTSDVHSoundManager.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\VHAnimationManager.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\VHAnimationManagerWithLocalSound.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\VHLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\VHSoundManager.cs" />
+    <Compile Include="Assets\Scripts\Core\VirtualHuman\VPFAnimationInfo.cs" />
+    <Compile Include="Assets\Scripts\Core\XML\XMLNode.cs" />
+    <Compile Include="Assets\Scripts\Core\XML\XMLNodeList.cs" />
+    <Compile Include="Assets\Scripts\Core\XML\XMLParser.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\CranialNerveAppActionHandler.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\CranialNerveToolManager.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\BlinkBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\CranialNerveModel.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\EyeClick.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\EyeMovement.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\EyelidControl.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\IsInSpotlight.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\MouseEyeControl.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\EyeModel\PupilControl.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\SimulationEvents\ExaminationEvents.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\CranialNerveTool.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\Dimmer.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\EyeChartTool.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\HandTool.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\OphthalmoscopeLight.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\OphthalmoscopeTool.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Tools\TestLight.cs" />
+    <Compile Include="Assets\Scripts\Cranial Nerve\Utilities\MatrixLib.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\AdvancedClientListener.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\AdvancedTCPCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Commands\VHFLaunchProgram.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Commands\VHFStopProgram.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Human\VHFClarificationSelected.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Human\VHFCloseEnded.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Human\VHFEmpathyAnswer.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Human\VHFHumanSpoke.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Human\VHFOpenEnded.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\VHFWozActionSelected.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Virtual\VHFGrayOut.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Virtual\VHFNewLookTarget.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Virtual\VHFVirtualActionOccurred.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Virtual\VHFVirtualEmpathyRating.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Events\Virtual\VHFWalkOut.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Logging\VHFAnnotation.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Logging\VHFStartLogging.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Logging\VHFStatusUpdate.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Logging\VHFStopLogging.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Messages\VHFClientRegistration.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Messages\VHFProgramStarted.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Messages\VHFProgramStopped.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Messages\VHFWozConfiguration.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Messages\VHFWozPrediction.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFCharacterFinishedSpeaking.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFCharacterStartedSpeaking.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFInterruptCurrentAction.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFPTSDCommand.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFPlaySpecifiedAction.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFPlayTaggedAction.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFPlayVideo.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\Signals\VHFSignal.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\TcpCommunicator.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\VHFMessage.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\VHFMultipleChoiceOption.cs" />
+    <Compile Include="Assets\Scripts\Externals\VirtualHumanFramework.Core.Messages\VersionDeserializationBinder.cs" />
+    <Compile Include="Assets\Scripts\Immersive\HeadTrackingUpdate.cs" />
+    <Compile Include="Assets\Scripts\Immersive\KinectTracker.cs" />
+    <Compile Include="Assets\Scripts\Immersive\KinectTrackerIO.cs" />
+    <Compile Include="Assets\Scripts\KinectV2\AudioBodyManager.cs" />
+    <Compile Include="Assets\Scripts\KinectV2\BodySourceManager.cs" />
+    <Compile Include="Assets\Scripts\KinectV2\HeadTracker.cs" />
+    <Compile Include="Assets\Scripts\KinectV2\OffAxisProjection_V2.cs" />
+    <Compile Include="Assets\Scripts\PTSD\AddTextToTexture.cs" />
+    <Compile Include="Assets\Scripts\PTSD\AudioTrigger.cs" />
+    <Compile Include="Assets\Scripts\PTSD\BotControlScript.cs" />
+    <Compile Include="Assets\Scripts\PTSD\CSMessenger Extended\Callback.cs" />
+    <Compile Include="Assets\Scripts\PTSD\CSMessenger Extended\Messenger.cs" />
+    <Compile Include="Assets\Scripts\PTSD\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PTSD\CameraZoom.cs" />
+    <Compile Include="Assets\Scripts\PTSD\CartCollision.cs" />
+    <Compile Include="Assets\Scripts\PTSD\ControllerPayment.cs" />
+    <Compile Include="Assets\Scripts\PTSD\FlashingLight.cs" />
+    <Compile Include="Assets\Scripts\PTSD\FlashingLightSpecial.cs" />
+    <Compile Include="Assets\Scripts\PTSD\GUIInterface.cs" />
+    <Compile Include="Assets\Scripts\PTSD\GUIcontrol.cs" />
+    <Compile Include="Assets\Scripts\PTSD\GuiForMainScreen.cs" />
+    <Compile Include="Assets\Scripts\PTSD\GuiTextureForBackground.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\GUIButton.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\LagPosition.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\ShoppingListContent.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\Timer.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\UpdateManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\WalletWindowManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\WindowAutoYaw.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\WindowDragTilt.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\myGUI.cs" />
+    <Compile Include="Assets\Scripts\PTSD\HUD\priceTag.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\CameraFade.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\DrawLine.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\Flashing.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\GUIBasic.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\GameFlow.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\Highlight.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\InputClass.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\InputManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\NPCOptions.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\OutputClass.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\ProgressiveCueClass.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\RemoveBlockItem.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\Task.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\TaskTrigger.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\TextToTexture.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\TutorialStep.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\pricetagclicked.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\regionDefinition.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Items\screenClicked.cs" />
+    <Compile Include="Assets\Scripts\PTSD\ItemsInCartGUI.cs" />
+    <Compile Include="Assets\Scripts\PTSD\LookAround.cs" />
+    <Compile Include="Assets\Scripts\PTSD\MainPaymentController.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Minimap.cs" />
+    <Compile Include="Assets\Scripts\PTSD\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PTSD\MouseLook2.cs" />
+    <Compile Include="Assets\Scripts\PTSD\MouseLookShiva.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Movement.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Movement1.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonMove.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UICheckbox.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UISliderColors.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\UINode.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIFilledSprite.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIInputSaved.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UISlicedSprite.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UITiledSprite.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCAudioController.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCBumpBehavior.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCBumpResponse.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCSecondaryBumpMove.cs" />
+    <Compile Include="Assets\Scripts\PTSD\NPCStandingAudioController.cs" />
+    <Compile Include="Assets\Scripts\PTSD\PatrolScript.cs" />
+    <Compile Include="Assets\Scripts\PTSD\PickUpItems.cs" />
+    <Compile Include="Assets\Scripts\PTSD\Player.cs" />
+    <Compile Include="Assets\Scripts\PTSD\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PTSD\PlayerController2.cs" />
+    <Compile Include="Assets\Scripts\PTSD\ResponseManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\PTSD\ThirdPersonCamera_UVa.cs" />
+    <Compile Include="Assets\Scripts\PTSD\TriggerSpotlight.cs" />
+    <Compile Include="Assets\Scripts\PTSD\TutorialAudioManager.cs" />
+    <Compile Include="Assets\Scripts\PTSD\findClosest.cs" />
+    <Compile Include="Assets\Scripts\PTSD\iTween\Plugins\iTween.cs" />
+    <Compile Include="Assets\Scripts\PTSD\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\Scripts\PTSD\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\Scripts\PTSD\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\Scripts\PTSD\mousePointer.cs" />
+    <Compile Include="Assets\Scripts\PTSD\walletWindow.cs" />
+    <Compile Include="Assets\Scripts\PTSD\walletWindowEnable.cs" />
+    <Compile Include="Assets\Scripts\UPD\AnimateMegan.cs" />
+    <Compile Include="Assets\Scripts\UPD\CVSTutorial.cs" />
+    <Compile Include="Assets\Scripts\UPD\DialogueTracker.cs" />
+    <Compile Include="Assets\Scripts\UPD\EmpathyCoach.cs" />
+    <Compile Include="Assets\Scripts\UPD\FadeInOut.cs" />
+    <Compile Include="Assets\Scripts\UPD\FeedbackMenu.cs" />
+    <Compile Include="Assets\Scripts\UPD\FeedbackStats.cs" />
+    <Compile Include="Assets\Scripts\UPD\LookAroundCVS.cs" />
+    <Compile Include="Assets\Scripts\UPD\MovePoliceCar.cs" />
+    <Compile Include="Assets\Scripts\UPD\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\UPD\PoliceCarMenu.cs" />
+    <Compile Include="Assets\Scripts\UPD\PrivateRoom.cs" />
+    <Compile Include="Assets\Scripts\UPD\SceneFadeInOut.cs" />
+    <Compile Include="Assets\Scripts\UPD\ToggleCameras.cs" />
+    <Compile Include="Assets\Scripts\UPD\VHLoaderUPD.cs" />
+    <Compile Include="Assets\Scripts\UVa\BedMove.cs" />
+    <Compile Include="Assets\Scripts\UVa\OxTank.cs" />
+    <Compile Include="Assets\Scripts\UVa\OxygenMeter.cs" />
+    <Compile Include="Assets\Scripts\UVa\Pillow.cs" />
+    <Compile Include="Assets\Scripts\UVa\Stethoscope.cs" />
+    <Compile Include="Assets\Scripts\UVa\Weezing.cs" />
+    <Compile Include="Assets\Scripts\UVa\nebulizer.cs" />
+    <Compile Include="Assets\Scripts\UVa\steth1.cs" />
+    <Compile Include="Assets\Scripts\UVa\swithAnim.cs" />
+    <Compile Include="Assets\Scripts\shared\DragObjects.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ControllerHoverHighlight.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CustomEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DebugUI.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnDetachedFromHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnParticleSystemDeath.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnTriggerEnter.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DistanceHaptics.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\EnumFlags.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\FallbackCameraController.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Hand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HapticRack.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HideOnHandFocusLost.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InputModule.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Interactable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableButtonEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableHoverEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackage.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageReference.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageSpawner.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimation.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimator.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAudioPitch.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearBlendshape.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDisplacement.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDrive.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearMapping.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\PlaySound.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Player.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SeeThru.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SleepOnAwake.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundDeparent.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundPlayOneshot.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachAfterControllerIsTracking.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachToHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnRenderModel.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Throwable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\UIElement.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Unparent.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Util.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Arrow.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Balloon.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\FireSource.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Longbow.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\ChaperoneInfo.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\IgnoreTeleportTrace.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\Teleport.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArea.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportPoint.cs" />
+    <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Art\builtin_shaders-4.1.5\DefaultResources\Normal-Bumped.shader" />
+    <None Include="Assets\Art\builtin_shaders-4.1.5\DefaultResources\Normal-Diffuse.shader" />
+    <None Include="Assets\Art\builtin_shaders-4.1.5\DefaultResources\Normal-VertexLit.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

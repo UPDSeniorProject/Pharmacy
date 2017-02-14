@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9B15DC27-F76E-8083-D076-7B3E1510B618}") = "UPDPharmacy", "Assembly-CSharp.csproj", "{53CB786B-712D-0919-AF95-8A045BF247CB}"
+EndProject
+Project("{9B15DC27-F76E-8083-D076-7B3E1510B618}") = "UPDPharmacy", "Assembly-CSharp-Editor.csproj", "{31F3C884-B0B2-C61B-8BBB-9DFD7E024EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53CB786B-712D-0919-AF95-8A045BF247CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CB786B-712D-0919-AF95-8A045BF247CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CB786B-712D-0919-AF95-8A045BF247CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CB786B-712D-0919-AF95-8A045BF247CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F3C884-B0B2-C61B-8BBB-9DFD7E024EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F3C884-B0B2-C61B-8BBB-9DFD7E024EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F3C884-B0B2-C61B-8BBB-9DFD7E024EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F3C884-B0B2-C61B-8BBB-9DFD7E024EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

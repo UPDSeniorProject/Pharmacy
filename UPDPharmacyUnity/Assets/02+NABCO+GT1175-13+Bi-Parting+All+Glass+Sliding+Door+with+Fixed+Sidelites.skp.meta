@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 8b439442793b7e843ad69f72a099d41d
+timeCreated: 1487095567
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000be000000bf000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5a21b5f68f4aed6c4c574207a9caf6a2
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 5.959787, y: 1.268473, z: -5.173266}
+      lookAt: {x: 1.7138596, y: 1.388202, z: 0.45377365}
+      up: {x: 0.010228855, y: 0.9998558, z: -0.01355609}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 5.959787, y: 1.268473, z: -5.173266}
+        lookAt: {x: 1.7138596, y: 1.388202, z: 0.45377365}
+        up: {x: 0.010228855, y: 0.9998558, z: -0.01355609}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 1
+    - camera:
+        position: {x: 5.959787, y: 1.268473, z: -5.173266}
+        lookAt: {x: 1.7138596, y: 1.388202, z: 0.45377365}
+        up: {x: 0.010228855, y: 0.9998558, z: -0.01355609}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 2
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Component#1
+    100004: Component#1 1
+    100006: Component#12
+    100008: Component#12 1
+    100010: Component#13
+    100012: Component#14
+    100014: Component#14 1
+    100016: Component#15
+    100018: Component#16
+    100020: Component#17
+    100022: Component#18
+    100024: Component#18 1
+    100026: Component#18 2
+    100028: Component#18 3
+    100030: Component#19
+    100032: Component#19 1
+    100034: Component#2
+    100036: Component#2 1
+    100038: Component#20
+    100040: Component#21
+    100042: Component#21 1
+    100044: Component#23
+    100046: Component#23 1
+    100048: Component#25
+    100050: Component#25 1
+    100052: Component#26
+    100054: Component#26 1
+    100056: Component#26 2
+    100058: Component#26 3
+    100060: Component#27
+    100062: Component#27 1
+    100064: Component#27 2
+    100066: Component#27 3
+    100068: Component#28
+    100070: Component#28 1
+    100072: Component#29
+    100074: Component#3
+    100076: Component#3 1
+    100078: Component#30
+    100080: Component#31
+    100082: Component#4
+    100084: Component#4 1
+    100086: Component#5
+    100088: Component#5 1
+    100090: Component#6
+    100092: Component#7
+    100094: Component#7 1
+    100096: Component#8
+    100098: Component#8 1
+    100100: Component#9
+    100102: Drawing1.dwg
+    100104: Drawing1.dwg 1
+    100106: Drawing1.dwg#11
+    100108: Drawing1.dwg#12
+    100110: Drawing1.dwg#13
+    100112: Drawing1.dwg#14
+    100114: Drawing1.dwg#14 1
+    100116: Drawing1.dwg#3
+    100118: Drawing1.dwg#3 1
+    100120: Drawing1.dwg#3 2
+    100122: Drawing1.dwg#3 3
+    100124: Drawing1.dwg#4
+    100126: Drawing1.dwg#4 1
+    100128: Drawing1.dwg#5
+    100130: Drawing1.dwg#5 1
+    100132: Drawing1.dwg#6
+    100134: Drawing1.dwg#6 1
+    100136: Drawing1.dwg#7
+    100138: Drawing1.dwg#7 1
+    100140: Drawing1.dwg#9
+    100142: Group#1
+    100144: Group#1 1
+    400000: //RootNode
+    400002: Component#1
+    400004: Component#1 1
+    400006: Component#12
+    400008: Component#12 1
+    400010: Component#13
+    400012: Component#14
+    400014: Component#14 1
+    400016: Component#15
+    400018: Component#16
+    400020: Component#17
+    400022: Component#18
+    400024: Component#18 1
+    400026: Component#18 2
+    400028: Component#18 3
+    400030: Component#19
+    400032: Component#19 1
+    400034: Component#2
+    400036: Component#2 1
+    400038: Component#20
+    400040: Component#21
+    400042: Component#21 1
+    400044: Component#23
+    400046: Component#23 1
+    400048: Component#25
+    400050: Component#25 1
+    400052: Component#26
+    400054: Component#26 1
+    400056: Component#26 2
+    400058: Component#26 3
+    400060: Component#27
+    400062: Component#27 1
+    400064: Component#27 2
+    400066: Component#27 3
+    400068: Component#28
+    400070: Component#28 1
+    400072: Component#29
+    400074: Component#3
+    400076: Component#3 1
+    400078: Component#30
+    400080: Component#31
+    400082: Component#4
+    400084: Component#4 1
+    400086: Component#5
+    400088: Component#5 1
+    400090: Component#6
+    400092: Component#7
+    400094: Component#7 1
+    400096: Component#8
+    400098: Component#8 1
+    400100: Component#9
+    400102: Drawing1.dwg
+    400104: Drawing1.dwg 1
+    400106: Drawing1.dwg#11
+    400108: Drawing1.dwg#12
+    400110: Drawing1.dwg#13
+    400112: Drawing1.dwg#14
+    400114: Drawing1.dwg#14 1
+    400116: Drawing1.dwg#3
+    400118: Drawing1.dwg#3 1
+    400120: Drawing1.dwg#3 2
+    400122: Drawing1.dwg#3 3
+    400124: Drawing1.dwg#4
+    400126: Drawing1.dwg#4 1
+    400128: Drawing1.dwg#5
+    400130: Drawing1.dwg#5 1
+    400132: Drawing1.dwg#6
+    400134: Drawing1.dwg#6 1
+    400136: Drawing1.dwg#7
+    400138: Drawing1.dwg#7 1
+    400140: Drawing1.dwg#9
+    400142: Group#1
+    400144: Group#1 1
+    2300000: Component#1
+    2300002: Component#1 1
+    2300004: Component#12
+    2300006: Component#12 1
+    2300008: Component#13
+    2300010: Component#15
+    2300012: Component#16
+    2300014: Component#18
+    2300016: Component#18 1
+    2300018: Component#18 2
+    2300020: Component#18 3
+    2300022: Component#2
+    2300024: Component#2 1
+    2300026: Component#25
+    2300028: Component#25 1
+    2300030: Component#26
+    2300032: Component#26 1
+    2300034: Component#26 2
+    2300036: Component#26 3
+    2300038: Component#27
+    2300040: Component#27 1
+    2300042: Component#27 2
+    2300044: Component#27 3
+    2300046: Component#29
+    2300048: Component#3
+    2300050: Component#3 1
+    2300052: Component#31
+    2300054: Component#4
+    2300056: Component#4 1
+    2300058: Component#6
+    2300060: Component#7
+    2300062: Component#7 1
+    2300064: Component#8
+    2300066: Component#8 1
+    2300068: Component#9
+    2300070: Drawing1.dwg
+    2300072: Drawing1.dwg 1
+    2300074: Drawing1.dwg#11
+    2300076: Drawing1.dwg#12
+    2300078: Drawing1.dwg#13
+    2300080: Drawing1.dwg#14
+    2300082: Drawing1.dwg#14 1
+    2300084: Drawing1.dwg#3
+    2300086: Drawing1.dwg#3 1
+    2300088: Drawing1.dwg#3 2
+    2300090: Drawing1.dwg#3 3
+    2300092: Drawing1.dwg#4
+    2300094: Drawing1.dwg#4 1
+    2300096: Drawing1.dwg#5
+    2300098: Drawing1.dwg#5 1
+    2300100: Drawing1.dwg#6
+    2300102: Drawing1.dwg#6 1
+    2300104: Drawing1.dwg#7
+    2300106: Drawing1.dwg#7 1
+    2300108: Drawing1.dwg#9
+    2300110: Group#1
+    2300112: Group#1 1
+    3300000: Component#1
+    3300002: Component#1 1
+    3300004: Component#12
+    3300006: Component#12 1
+    3300008: Component#13
+    3300010: Component#15
+    3300012: Component#16
+    3300014: Component#18
+    3300016: Component#18 1
+    3300018: Component#18 2
+    3300020: Component#18 3
+    3300022: Component#2
+    3300024: Component#2 1
+    3300026: Component#25
+    3300028: Component#25 1
+    3300030: Component#26
+    3300032: Component#26 1
+    3300034: Component#26 2
+    3300036: Component#26 3
+    3300038: Component#27
+    3300040: Component#27 1
+    3300042: Component#27 2
+    3300044: Component#27 3
+    3300046: Component#29
+    3300048: Component#3
+    3300050: Component#3 1
+    3300052: Component#31
+    3300054: Component#4
+    3300056: Component#4 1
+    3300058: Component#6
+    3300060: Component#7
+    3300062: Component#7 1
+    3300064: Component#8
+    3300066: Component#8 1
+    3300068: Component#9
+    3300070: Drawing1.dwg
+    3300072: Drawing1.dwg 1
+    3300074: Drawing1.dwg#11
+    3300076: Drawing1.dwg#12
+    3300078: Drawing1.dwg#13
+    3300080: Drawing1.dwg#14
+    3300082: Drawing1.dwg#14 1
+    3300084: Drawing1.dwg#3
+    3300086: Drawing1.dwg#3 1
+    3300088: Drawing1.dwg#3 2
+    3300090: Drawing1.dwg#3 3
+    3300092: Drawing1.dwg#4
+    3300094: Drawing1.dwg#4 1
+    3300096: Drawing1.dwg#5
+    3300098: Drawing1.dwg#5 1
+    3300100: Drawing1.dwg#6
+    3300102: Drawing1.dwg#6 1
+    3300104: Drawing1.dwg#7
+    3300106: Drawing1.dwg#7 1
+    3300108: Drawing1.dwg#9
+    3300110: Group#1
+    3300112: Group#1 1
+    4300000: Mesh Group#1
+    4300002: Mesh Component#3
+    4300004: Mesh Drawing1.dwg
+    4300006: Mesh Component#1
+    4300008: Mesh Component#2
+    4300010: Mesh Component#4
+    4300012: Mesh Drawing1.dwg#6
+    4300014: Mesh Drawing1.dwg#7
+    4300016: Mesh Drawing1.dwg#3
+    4300018: Mesh Drawing1.dwg#4
+    4300020: Mesh Drawing1.dwg#5
+    4300022: Mesh Component#18
+    4300024: Mesh Component#26
+    4300026: Mesh Component#25
+    4300028: Mesh Component#27
+    4300030: Mesh Drawing1.dwg#9
+    4300032: Mesh Component#16
+    4300034: Mesh Component#15
+    4300036: Mesh Component#7
+    4300038: Mesh Component#12
+    4300040: Mesh Component#13
+    4300042: Mesh Drawing1.dwg#12
+    4300044: Mesh Drawing1.dwg#11
+    4300046: Mesh Drawing1.dwg#13
+    4300048: Mesh Component#29
+    4300050: Mesh Drawing1.dwg#14
+    4300052: Mesh Component#31
+    4300054: Mesh Component#8
+    4300056: Mesh Component#6
+    4300058: Mesh Component#9
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

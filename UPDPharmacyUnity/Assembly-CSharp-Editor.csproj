@@ -168,10 +168,10 @@
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/UPDPharmacyUnity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/Pharmacy/UPDPharmacyUnity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/UPDPharmacyUnity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/Pharmacy/UPDPharmacyUnity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -222,7 +222,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Phidget21.NET">
- <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/UPDPharmacyUnity/Assets/Plugins/Phidget21.NET.dll</HintPath>
+ <HintPath>C:/Users/evanamstutz/Desktop/Senior-Project - Staging/Senior-Project - Staging/Pharmacy/UPDPharmacyUnity/Assets/Plugins/Phidget21.NET.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

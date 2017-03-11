@@ -378,6 +378,7 @@
     <Compile Include="Assets\Scripts\PTSD\mousePointer.cs" />
     <Compile Include="Assets\Scripts\PTSD\walletWindow.cs" />
     <Compile Include="Assets\Scripts\PTSD\walletWindowEnable.cs" />
+    <Compile Include="Assets\Scripts\Talk2.cs" />
     <Compile Include="Assets\Scripts\UPD\AnimateMegan.cs" />
     <Compile Include="Assets\Scripts\UPD\CVSTutorial.cs" />
     <Compile Include="Assets\Scripts\UPD\DialogueTracker.cs" />
@@ -402,6 +403,7 @@
     <Compile Include="Assets\Scripts\UVa\nebulizer.cs" />
     <Compile Include="Assets\Scripts\UVa\steth1.cs" />
     <Compile Include="Assets\Scripts\UVa\swithAnim.cs" />
+    <Compile Include="Assets\Scripts\VPF2ApiAccess.cs" />
     <Compile Include="Assets\Scripts\shared\DragObjects.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
